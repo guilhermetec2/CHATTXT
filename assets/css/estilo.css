@@ -5,117 +5,51 @@
 }
 
 body{
-    background-color: #F6F6F6;
+    background-color: #E0E0E0;
 }
 
 .area{
-    width: 90vw;
+    width: 85vw;
     margin: auto;
 }
 
-.top-container{
+.top-bar{
     width: 100vw;
-    height: auto;
-    float: left;
-    background-color: #3D7BE5;
+    height: 50px;
+    background-color: #2f80ed;
 }
 
-.logo-container{
-    height: 40px;
-    display: block;
-    color: #F6F6F6;
+.container-esquerda{
+    
 }
 
-.logo-container button{
-    height: 100%;
-}
-
-.logo-container h2{
-    display: inline-block;
-    position: relative;
-    bottom: calc(50% - 8px)
-}
-
-.menu-container{
-    height: 80px;
-    background-color: #19212A;
-    display: block;
-}
-
-nav{
-    height: 100%;
-    color: #F6F6F6;
-}
-
-nav a{
-    height: 100%;
-}
-
-nav .nav-hover{
-    padding: 0px !important;
-    height: 100%;
-}
-
- main{
-    position: relative;
-    top: 140px;
-    flex: left;
- }
-
-.accordion-situacao + .accordion-situacao{
-     margin-top: 2rem;
- }
-
-.accordion-situacao table tr{
-     cursor: pointer;
- }
-
- .search-form{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
- }
-
- .search-form button{
-     margin-top: 22px;
-     margin-left: 0.5rem;
- }
-
- .card-ordem{
-     width: 320px;
-     height: auto;
-     float: left;
-     margin-bottom: 2rem;
-     margin-right: 1rem;
- }
-
- .card-ordem .card-ordem-head{
+.container-contatos{
     width: 100%;
-    text-align: center;
+    height: 90vh;
     float: left;
- }
+    padding: 2rem;
+    background-color: #F2F2F2;
+    border: 1px solid #AEAEAE;
+    overflow: auto;
+}
 
- .card-ordem .card-ordem-body{
-     width: 100%;
-     padding: 0.5rem;
- }
+.container-direita{
+   height: auto;
+   margin-left: 1rem; 
+   padding: 2rem;
+   background-color: #F2F2F2;
+   border: 1px solid #AEAEAE;
+}
 
- .card-ordem .card-ordem-footer{
-     width: 100%;
-    text-align: right;
- }
+.container-mensagens{
+    width: 100%;
+    height: 60vh;
+    border: 1px solid #AEAEAE;
+    overflow: auto;
+}
 
- .folha-ordem{
-     width: 40vw;
-     height: auto;
-     padding: 1rem;
-     float: left;
- }
-
- .folha-ordem table{
-     width: 60%;
-     margin-top: 2rem; 
- }
-
- .folha-ordem table td{
-   max-width:30vw;
+.container-editor{
+    width: 100%;
+    height: calc(30vh - 4rem);
+    border: 1px solid #AEAEAE;
 }
