@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #E0E0E0;
+    background-color: #A3A5A8;
 }
 
 .area{
@@ -16,27 +16,71 @@ body{
 .top-bar{
     width: 100vw;
     height: 50px;
+    padding-left: 4rem;
+    padding-right: 4rem;
     background-color: #2f80ed;
+    color: white;
 }
 
-.container-esquerda{
-    
+.top-bar h2{
+    position: relative;
+    bottom: 10px;
+}
+
+.top-bar button{
+    display: inline-block;
+    height: 50px;
+    background-color: #2f80ed;
 }
 
 .container-contatos{
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     float: left;
-    padding: 2rem;
+    padding: 1rem;
     background-color: #F2F2F2;
     border: 1px solid #AEAEAE;
+    overflow: hidden;
+}
+
+.lista-contatos,
+.lista-grupos{
+    width: 100%;
+    max-height: 60vh;
+    float: left;
     overflow: auto;
 }
 
+.foto-contato,
+.foto-grupo{
+    float: left;
+    margin-right: 1rem 
+}
+.foto-contato img,
+.foto-grupo img{
+    width: 50px;
+    height: auto;
+}
+
+.nome-contato,
+.nome-grupo{
+    padding: 0.5rem;
+}
+
+.nome-contato p:first-child,
+.nome-grupo p:first-child{
+    font-weight: bold;
+    font-size: 16px;
+}
+.nome-contato p,
+.nome-grupo p{
+    font-size: 12px;
+}
+
 .container-direita{
-   height: auto;
+   height: 85vh;
    margin-left: 1rem; 
-   padding: 2rem;
+   padding: 1rem;
    background-color: #F2F2F2;
    border: 1px solid #AEAEAE;
 }
@@ -44,12 +88,13 @@ body{
 .container-mensagens{
     width: 100%;
     height: 60vh;
+    background-color: #DBDBDB;
     border: 1px solid #AEAEAE;
     overflow: auto;
 }
 
 .container-editor{
     width: 100%;
-    height: calc(30vh - 4rem);
+    height: calc(25vh - 2rem);
     border: 1px solid #AEAEAE;
 }
